@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GGBuild</string>
+    <item name="navigation_view" type="id" />
+    <string name="title_activity_opening_screen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="championsString">
+        <item>Amumu</item>
+        <item>Anivia</item>
+        <item>Braum</item>
+        <item>Caitlyn</item>
+        <item>Gnar</item>
+        <item>Jhin</item>
+        <item>Kennen</item>
+        <item>Khazix</item>
+        <item>Kindred</item>
+        <item>Leblanc</item>
+        <item>Leesin</item>
+        <item>Lucian</item>
+        <item>Mordekaiser</item>
+        <item>Nasus</item>
+        <item>Nautilius</item>
+        <item>Olaf</item>
+        <item>Orianna</item>
+        <item>Pantheon</item>
+        <item>Pyke</item>
+    </string-array>
+
+</resources>

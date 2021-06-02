@@ -1,0 +1,2 @@
+rootProject.name = "GGBuild"
+include ':app'

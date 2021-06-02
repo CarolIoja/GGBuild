@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/background"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".MainActivity">
+
+            <ImageView
+                android:id="@+id/khazix"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/kennen"
+                app:layout_constraintTop_toBottomOf="@+id/gnar"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/khazix" />
+
+            <ImageView
+                android:id="@+id/leesin"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/leblanc"
+                app:layout_constraintTop_toBottomOf="@+id/khazix"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/leesin" />
+
+            <ImageView
+                android:id="@+id/amumu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="160dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/amumu" />
+
+            <ImageView
+                android:id="@+id/anivia"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="160dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/amumu"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/anivia" />
+
+            <ImageView
+                android:id="@+id/braum"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginEnd="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/anivia"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/braum" />
+
+            <ImageView
+                android:id="@+id/caitlyn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/amumu"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/caitlyn" />
+
+            <ImageView
+                android:id="@+id/gnar"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/caitlyn"
+                app:layout_constraintTop_toBottomOf="@+id/anivia"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/gnar" />
+
+            <ImageView
+                android:id="@+id/jhin"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/gnar"
+                app:layout_constraintTop_toBottomOf="@+id/braum"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/jhin" />
+
+            <ImageView
+                android:id="@+id/kennen"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/caitlyn"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/kennen" />
+
+            <ImageView
+                android:id="@+id/kindred"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/khazix"
+                app:layout_constraintTop_toBottomOf="@+id/jhin"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/kindred" />
+
+            <ImageView
+                android:id="@+id/leblanc"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/kennen"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/leblanc" />
+
+            <ImageView
+                android:id="@+id/lucian"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/leesin"
+                app:layout_constraintTop_toBottomOf="@+id/kindred"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/lucian" />
+
+            <ImageView
+                android:id="@+id/mordekaiser"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/leblanc"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/mordekaiser" />
+
+            <ImageView
+                android:id="@+id/nasus"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/mordekaiser"
+                app:layout_constraintTop_toBottomOf="@+id/leesin"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/nasus" />
+
+            <ImageView
+                android:id="@+id/nautilius"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/nasus"
+                app:layout_constraintTop_toBottomOf="@+id/lucian"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/nautilius" />
+
+            <ImageView
+                android:id="@+id/olaf"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mordekaiser"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/olaf" />
+
+            <ImageView
+                android:id="@+id/orianna"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/olaf"
+                app:layout_constraintTop_toBottomOf="@+id/nasus"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/orianna" />
+
+            <ImageView
+                android:id="@+id/pantheon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/orianna"
+                app:layout_constraintTop_toBottomOf="@+id/nautilius"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/pantheon" />
+
+            <ImageView
+                android:id="@+id/pyke"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/olaf"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/pyke" />
+
+            <TextView
+                android:id="@+id/textView"
+                style="@android:style/Widget.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Or click your champion:"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#FF172A"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/anivia"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.822" />
+
+            <Button
+                android:id="@+id/searchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Click here to search"
+                android:textColor="#FF172A"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:rippleColor="#000000" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

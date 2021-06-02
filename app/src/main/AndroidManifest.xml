@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ggbuild">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GGBuild">
+        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".Jhin.ActivityJhinBuild" />
+        <activity android:name=".Caitlyn.ActivityCaitlynBuild" />
+        <activity android:name=".Gnar.ActivityGnarBuild" />
+        <activity android:name=".Kennen.ActivityKennenBuild" />
+        <activity android:name=".Kindred.ActivityKindredBuild" />
+        <activity android:name=".Leblanc.ActivityLeblancBuild" />
+        <activity android:name=".Leesin.ActivityLeesinBuild" />
+        <activity android:name=".Lucian.ActivityLucianBuild" />
+        <activity android:name=".Mordekaiser.ActivityMordekaiserBuild" />
+        <activity android:name=".Nasus.ActivityNasusBuild" />
+        <activity android:name=".Nautilius.ActivityNautiliusBuild" />
+        <activity android:name=".Olaf.ActivityOlafBuild" />
+        <activity android:name=".Orianna.ActivityOriannaBuild" />
+        <activity android:name=".Pantheon.ActivityPantheonBuild" />
+        <activity android:name=".Pyke.ActivityPykeBuild" />
+        <activity android:name=".Braum.ActivityBraumBuild" />
+        <activity android:name=".Amumu.ActivityAmumuBuild" />
+        <activity android:name=".Anivia.ActivityAniviaBuild" />
+        <activity
+            android:name=".OpeningScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GGBuild.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Khazix.ActivityKhazixBuild" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
